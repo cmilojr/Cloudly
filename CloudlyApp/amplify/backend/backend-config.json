@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"cloudlyapp8135ac3d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
