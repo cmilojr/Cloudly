@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"cloudlyapp8135ac3d": {
+		"cloudlyappc15c90a7": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/camilo/Files/cloudly/cloudly/TabBarViewController.swift">
-   </FileRef>
-   <FileRef
       location = "group:cloudly.xcodeproj">
    </FileRef>
    <FileRef
