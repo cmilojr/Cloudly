@@ -9,51 +9,64 @@
 import UIKit
 import Amplify
 import AmplifyPlugins
+import Firebase
+import FirebaseStorage
+import MobileCoreServices
 
 class ToDoHomeScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        writeFile()
+    }
 
+    @IBAction func LogOutBarItem(_ sender: Any) {
+        signOutLocally()
+    }
+    private func signOutLocally() {
+        _ = Amplify.Auth.signOut() { result in
+            switch result {
+            case .success:
+                DispatchQueue.main.async {
+                    self.dismiss(animated: true, completion: nil)
+                }
+                print("Successfully signed out")
+            case .failure(let error):
+                print("Sign out failed with error \(error)")
+            }
+        }
+    }
+    
+    private func openDocument() {
+        let documentPicker = UIDocumentPickerViewController(documentTypes: [kUTTypePlainText as String], in: .import)
+        documentPicker.delegate = self
+        documentPicker.allowsMultipleSelection = false
+        present(documentPicker, animated: true, completion: nil)
+    }
+    
+    private func writeFile() {
+        print("Writting files . . .")
+        let file = "\(UUID().uuidString).txt"
+        let content = "Some text..."
+        let dir = FileManager.default.urls(for: .documentDirectory,
+                                           in: .userDomainMask).first! // TODO: usar if let en prod
+        print("Dir: \(dir)")
+        ///let directory = 
+        let fileURL = dir.appendingPathComponent(file)
+        do {
+            print("to: \(fileURL)")
+            try content.write(to: fileURL, atomically: false, encoding: .utf8)
+        } catch {
+            print("Error: \(error)")
+        }
+    }
+    @IBAction func addDocumentButton(_ sender: Any) {
+        openDocument()
+    }
+}
+
+extension ToDoHomeScreenViewController: UIDocumentPickerDelegate {
+    func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
         
     }
-    
-//    func createTodo() {
-//        let todo = Todo(name: "my first todo", description: "todo description")
-//        _ = Amplify.API.mutate(request: .create(todo)) { event in
-//            switch event {
-//            case .success(let result):
-//                switch result {
-//                case .success(let todo):
-//                    print("Successfully created the todo: \(todo)")
-//                case .failure(let graphQLError):
-//                    print("Failed to create graphql \(graphQLError)")
-//                }
-//            case .failure(let apiError):
-//                print("Failed to create a todo", apiError)
-//            }
-//        }
-//    }
-    @IBAction func acction(_ sender: Any) {
-        //listTodos()
-    }
-    
-//    func listTodos() {
-//        let todo = Todo.keys
-//        let predicate = todo.name == "my first todo" && todo.description == "todo description"
-//        _ = Amplify.API.query(request: .list(Todo.self, where: predicate)) { event in
-//            switch event {
-//            case .success(let result):
-//                switch result {
-//                case .success(let todo):
-//                    print("Successfully retrieved list of todos: \(todo)")
-//
-//                case .failure(let error):
-//                    print("Got failed result with \(error.errorDescription)")
-//                }
-//            case .failure(let error):
-//                print("Got failed event with error \(error)")
-//            }
-//        }
-//    }
 }

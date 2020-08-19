@@ -13,34 +13,22 @@ import AmplifyPlugins
 class SignInViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    
+    override func viewWillAppear(_ animated: Bool) {
+        if Amplify.Auth.getCurrentUser() != nil {
+            performSegue(withIdentifier: "signInSegue", sender: self)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func singInAction(_ sender: UIButton) {
-//        signOutLocally()
         do {
             let credentials = try unwrapCredentials(of: emailTextField.text, passwordTextField.text)
             signIn(credentials)
         } catch {
 
         }
-    }
-    
-    func signOutLocally() {
-        _ = Amplify.Auth.signOut() { result in
-            switch result {
-            case .success:
-                print("Successfully signed out")
-            case .failure(let error):
-                print("Sign out failed with error \(error)")
-            }
-        }
-    }
-    @IBAction func bu(_ sender: Any) {
-        signOutLocally()
     }
     
     private func unwrapCredentials(of email:String?, _ password:String?) throws -> LoginCredentials {

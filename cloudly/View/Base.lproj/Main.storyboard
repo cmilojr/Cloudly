@@ -33,7 +33,7 @@
                                         <edgeInsets key="layoutMargins" top="8" left="0.0" bottom="8" right="0.0"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="82" translatesAutoresizingMaskIntoConstraints="NO" id="hNs-8l-J40">
-                                        <rect key="frame" x="0.0" y="144" width="375" height="406.5"/>
+                                        <rect key="frame" x="0.0" y="144" width="375" height="377"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHO-uh-K5s">
                                                 <rect key="frame" x="30" y="8" width="315" height="25"/>
@@ -45,13 +45,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Be8-23-h2v">
-                                                <rect key="frame" x="30" y="115" width="315" height="151.5"/>
+                                                <rect key="frame" x="30" y="115" width="315" height="122"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YtH-uW-aS1" customClass="DesignableView" customModule="cloudly" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="26"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="jcjimenezr@eafit.edu.co" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1JS-PK-4dK">
-                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="34"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                                 <userDefinedRuntimeAttributes>
@@ -64,7 +64,6 @@
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                         <constraints>
                                                             <constraint firstItem="1JS-PK-4dK" firstAttribute="top" secondItem="YtH-uW-aS1" secondAttribute="top" id="4tA-e6-Uhe"/>
-                                                            <constraint firstAttribute="bottom" secondItem="1JS-PK-4dK" secondAttribute="bottom" constant="-24" id="cLJ-jx-rF0"/>
                                                             <constraint firstItem="1JS-PK-4dK" firstAttribute="leading" secondItem="YtH-uW-aS1" secondAttribute="leading" id="cXr-fE-Qwp"/>
                                                             <constraint firstItem="1JS-PK-4dK" firstAttribute="centerX" secondItem="YtH-uW-aS1" secondAttribute="centerX" id="htM-PW-2cw"/>
                                                         </constraints>
@@ -84,10 +83,10 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHL-Am-mFG" customClass="DesignableView" customModule="cloudly" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="42" width="315" height="26"/>
+                                                        <rect key="frame" x="0.0" y="46" width="315" height="30"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Camilo9710" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oNx-9w-qGz">
-                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="26"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                                 <userDefinedRuntimeAttributes>
@@ -120,23 +119,16 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RE-op-cy7">
-                                                        <rect key="frame" x="0.0" y="84" width="315" height="25.5"/>
+                                                        <rect key="frame" x="0.0" y="92" width="315" height="30"/>
                                                         <state key="normal" title="Forgot Password?"/>
                                                         <connections>
                                                             <action selector="resetPasswordAction:" destination="XCn-t3-EfZ" eventType="touchUpInside" id="Ikh-Z3-1Lo"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwb-tT-Ohz">
-                                                        <rect key="frame" x="0.0" y="125.5" width="315" height="26"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <connections>
-                                                            <action selector="bu:" destination="XCn-t3-EfZ" eventType="touchUpInside" id="pcw-vh-oSx"/>
-                                                        </connections>
-                                                    </button>
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4e-Ud-G9L">
-                                                <rect key="frame" x="30" y="348.5" width="315" height="50"/>
+                                                <rect key="frame" x="30" y="319" width="315" height="50"/>
                                                 <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.83529411760000005" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="5Lv-OU-wlj"/>
@@ -157,7 +149,7 @@
                                         <edgeInsets key="layoutMargins" top="8" left="30" bottom="8" right="30"/>
                                     </stackView>
                                     <view contentMode="scaleToFill" verticalHuggingPriority="200" translatesAutoresizingMaskIntoConstraints="NO" id="cJD-00-gta">
-                                        <rect key="frame" x="0.0" y="558.5" width="375" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="529" width="375" height="29.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="n7p-ab-Uj0">
@@ -213,23 +205,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwm-m2-bbE" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2015.2" y="129.98500749625188"/>
+            <point key="canvasLocation" x="1865" y="478"/>
         </scene>
-        <!--List-->
+        <!--To Do Home Screen View Controller-->
         <scene sceneID="FcZ-d1-D59">
             <objects>
-                <viewController id="mBc-sE-1Dw" sceneMemberID="viewController">
+                <viewController id="mBc-sE-1Dw" customClass="ToDoHomeScreenViewController" customModule="cloudly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2d6-Dg-NBZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="68I-ee-7Uy"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="List" id="fOg-9A-6r5"/>
+                    <navigationItem key="navigationItem" id="FuH-d3-Gz5">
+                        <barButtonItem key="leftBarButtonItem" image="folder.badge.plus" catalog="system" id="d0s-OH-48m">
+                            <connections>
+                                <action selector="addDocumentButton:" destination="mBc-sE-1Dw" id="rsN-Fs-Q01"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Exit" image="power" catalog="system" id="NqJ-XP-Pv2">
+                            <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="LogOutBarItem:" destination="mBc-sE-1Dw" id="VNv-te-Qqd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I8y-C6-QNx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4288.8000000000002" y="-359.37031484257875"/>
+            <point key="canvasLocation" x="5228" y="-359.37031484257875"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="iQn-dg-Xfi">
@@ -257,7 +261,7 @@
                                         <edgeInsets key="layoutMargins" top="8" left="0.0" bottom="8" right="0.0"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="82" translatesAutoresizingMaskIntoConstraints="NO" id="RYR-aX-yX1">
-                                        <rect key="frame" x="0.0" y="141" width="375" height="444"/>
+                                        <rect key="frame" x="0.0" y="141" width="375" height="419"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9SO-Jp-fME">
                                                 <rect key="frame" x="30" y="8" width="315" height="32"/>
@@ -269,13 +273,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="T18-nF-K1s">
-                                                <rect key="frame" x="30" y="122" width="315" height="182"/>
+                                                <rect key="frame" x="30" y="122" width="315" height="157"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxf-jY-lDE" customClass="DesignableView" customModule="cloudly" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="41.5"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0g6-Pn-ZEZ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="41.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                                 <userDefinedRuntimeAttributes>
@@ -294,7 +298,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRJ-76-vRh" customClass="DesignableView" customModule="cloudly" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="66" width="315" height="50"/>
+                                                        <rect key="frame" x="0.0" y="57.5" width="315" height="42"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bP5-qz-GV1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
@@ -333,10 +337,10 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bch-je-Mfn" customClass="DesignableView" customModule="cloudly" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="132" width="315" height="50"/>
+                                                        <rect key="frame" x="0.0" y="115.5" width="315" height="41.5"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pgU-1b-Rr9">
-                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="315" height="41.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                                 <userDefinedRuntimeAttributes>
@@ -371,7 +375,7 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rh2-KR-6Qi">
-                                                <rect key="frame" x="30" y="386" width="315" height="50"/>
+                                                <rect key="frame" x="30" y="361" width="315" height="50"/>
                                                 <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.83529411760000005" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="q2B-IZ-eU0"/>
@@ -387,7 +391,7 @@
                                         <edgeInsets key="layoutMargins" top="8" left="30" bottom="8" right="30"/>
                                     </stackView>
                                     <view contentMode="scaleToFill" verticalHuggingPriority="200" translatesAutoresizingMaskIntoConstraints="NO" id="GU6-Id-b6K">
-                                        <rect key="frame" x="0.0" y="590" width="375" height="25"/>
+                                        <rect key="frame" x="0.0" y="565" width="375" height="50"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                 </subviews>
@@ -413,30 +417,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d3B-YF-ixa" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2844" y="478.11094452773619"/>
+            <point key="canvasLocation" x="2868" y="477"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Start Navigation View Controller-->
         <scene sceneID="ZOg-sC-eG0">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="R84-KS-Erd" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="start" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="R84-KS-Erd" customClass="StartNavigationViewController" customModule="cloudly" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="kfF-Ca-qiO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JUE-OO-3CT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="XCn-t3-EfZ" kind="relationship" relationship="rootViewController" id="NQ9-4T-0uD"/>
+                        <segue destination="XCn-t3-EfZ" kind="relationship" relationship="rootViewController" id="JIV-y1-K0e"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FA8-nR-gxt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="129.98500749625188"/>
+            <point key="canvasLocation" x="943" y="476"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Twx-hK-xv8">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="DBa-k2-gcv" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="logged" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DBa-k2-gcv" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="06F-50-DAs"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionIndicatorImage="pencil" catalog="system" id="ib9-oX-ugu">
@@ -446,19 +451,41 @@
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="mBc-sE-1Dw" kind="relationship" relationship="viewControllers" id="BnJ-fb-lM1"/>
+                        <segue destination="mF4-Ij-iHr" kind="relationship" relationship="viewControllers" id="BnJ-fb-lM1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E0q-Yv-Kb4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3349.5999999999999" y="-359.37031484257875"/>
+            <point key="canvasLocation" x="3636" y="-359"/>
+        </scene>
+        <!--List-->
+        <scene sceneID="1wb-7t-XB3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mF4-Ij-iHr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="List" id="fOg-9A-6r5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7cg-Cf-xYv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.83529411760000005" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mBc-sE-1Dw" kind="relationship" relationship="rootViewController" id="HJ2-nY-MGl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YaQ-kR-HxC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4441" y="-359"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QCx-sC-Tug"/>
+        <segue reference="h0S-cQ-pSP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="cloudHeader" width="2157" height="826"/>
+        <image name="folder.badge.plus" catalog="system" width="128" height="86"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="power" catalog="system" width="128" height="124"/>
     </resources>
 </document>
