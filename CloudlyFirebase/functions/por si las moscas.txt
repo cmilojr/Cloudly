@@ -1,0 +1,61 @@
+const functions = require('firebase-functions');
+const admin = require("firebase-admin");
+const serviceAccount = require("./cloudlyapp-firebase-adminsdk-6atvy-97063f7493.json");
+const { CLIEngine } = require('eslint');
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://cloudlyapp.firebaseio.com"
+});
+
+// exports.scheduledFunction = functions.pubsub.schedule('every 5 minutes').onRun((context) => {
+//   console.log('This will be run every 5 minutes!');
+//   return null;
+// });
+
+//exports.helloWorld = functions.https.onRequest((req, res) => {
+
+//   var current = Date.now()
+//   const db = await admin.database()
+
+  // db.ref('items').once('value').then(function(snapshot) {
+  //   snapshot.forEach((child) => {
+  //     var subObj = child.val()
+  //     var childKey = child.key
+  //     Object.keys(subObj).forEach((key) => {
+  //       var itemDate = new Date(subObj[key].date).getTime()
+  //       var item = subObj[key]
+  //       var diff = (itemDate - current)/(1000 * 60)
+  //       if(diff <= -300 && item.pushed !== true) {
+  //         enviar(item.item, item.date, item.token,"/items/"+childKey+"/"+key)
+  //       }
+  //     })
+  //   })
+  // });
+//      res.send("finalizado")
+// });
+
+// const enviar = async(title,body,token,path) => {
+//     const db = await admin.database()
+//     var registrationToken = token;
+//     var message = {
+//         notification: {
+//           title: title,
+//           body: body
+//         },
+//       token: registrationToken
+//     };
+//   await admin.messaging().send(message)
+    //     .then((response) => {
+    //         db.ref(path).update({"pushed":true}) 
+    //         console.log('Successfully sent message:', response);
+    //     })
+    // .catch((error) => {
+    //         console.log('Error sending message:', error);
+    //     });
+//}
+
+
+exports.helloWorld = functions.https.onRequest((req, res) => {
+  res.status(200).send('Hello, World!');
+});

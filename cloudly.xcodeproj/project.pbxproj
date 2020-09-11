@@ -3,45 +3,245 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D85056CF7409F2313E92B3F /* Pods_cloudly_cloudlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4048AB3F6CA58C7524BECAB /* Pods_cloudly_cloudlyTests.framework */; };
+		85BB7A601475CA217A07F748 /* Pods_cloudly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1603000DFB8024C2BFFC1BBC /* Pods_cloudly.framework */; };
+		9A23008924E704CC0039AC3D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23008824E704CC0039AC3D /* RegisterViewController.swift */; };
+		9A388C6424EF2C2B00D580D4 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A388C6324EF2C2B00D580D4 /* CreateViewController.swift */; };
+		9A73ADE02507E2B800690265 /* CreateItem copy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A73ADDF2507E2B800690265 /* CreateItem copy.storyboard */; };
+		9A73ADE22507E34E00690265 /* UpdateItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A73ADE12507E34E00690265 /* UpdateItem.storyboard */; };
+		9A73ADE42507E39900690265 /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A73ADE32507E39900690265 /* Create.storyboard */; };
+		9A73ADE62507E3E200690265 /* ItemsMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A73ADE52507E3E200690265 /* ItemsMain.storyboard */; };
+		9A73ADE82507E43800690265 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A73ADE72507E43800690265 /* CreateAccount.storyboard */; };
+		9A73ADEA2507E4B200690265 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A73ADE92507E4B200690265 /* Profile.storyboard */; };
+		9A73ADEC2507E59E00690265 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73ADEB2507E59E00690265 /* ProfileViewController.swift */; };
+		9A73ADEE2507F3FF00690265 /* ProfilePicturePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73ADED2507F3FF00690265 /* ProfilePicturePersistence.swift */; };
+		9A87227F250942AC006093C4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A87227E250942AC006093C4 /* Colors.xcassets */; };
+		9A872284250953AB006093C4 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A872283250953AB006093C4 /* EmptyState.xib */; };
+		9A8FD89724F0336500443D95 /* UpdateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FD89624F0336500443D95 /* UpdateItemViewController.swift */; };
+		9AABEA6224F702C700A59E68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AABEA6124F702C700A59E68 /* GoogleService-Info.plist */; };
+		9AB0C5EA24F5756D008B04FB /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0C5E924F5756D008B04FB /* Unwrap.swift */; };
+		9AB0C5EC24F577FF008B04FB /* GenericAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0C5EB24F577FF008B04FB /* GenericAlert.swift */; };
+		9AB0C5EE24F57C7A008B04FB /* CreateAccountRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0C5ED24F57C7A008B04FB /* CreateAccountRequirements.swift */; };
+		9AB0C5F024F57C9F008B04FB /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0C5EF24F57C9F008B04FB /* LoginCredentials.swift */; };
+		9AB0C60324F5E2B9008B04FB /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0C60224F5E2B9008B04FB /* ToDoListItem.swift */; };
+		9ABDBF5024EC91970078B93B /* ToDoHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABDBF4F24EC91970078B93B /* ToDoHomeScreenViewController.swift */; };
+		9AC569CA24F8BC1F00E711FF /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AC569C824F8BC1F00E711FF /* amplifyconfiguration.json */; };
+		9AC569CB24F8BC1F00E711FF /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AC569C924F8BC1F00E711FF /* awsconfiguration.json */; };
+		9AC9F9B924F40FF000303268 /* cloudlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9F9B824F40FF000303268 /* cloudlyTests.swift */; };
 		9AFD285824E6FD3100FA374D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD285724E6FD3100FA374D /* AppDelegate.swift */; };
 		9AFD285A24E6FD3100FA374D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD285924E6FD3100FA374D /* SceneDelegate.swift */; };
-		9AFD285C24E6FD3100FA374D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD285B24E6FD3100FA374D /* ViewController.swift */; };
+		9AFD285C24E6FD3100FA374D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD285B24E6FD3100FA374D /* SignInViewController.swift */; };
 		9AFD285F24E6FD3100FA374D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD285D24E6FD3100FA374D /* Main.storyboard */; };
 		9AFD286124E6FD3200FA374D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD286024E6FD3200FA374D /* Assets.xcassets */; };
 		9AFD286424E6FD3200FA374D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD286224E6FD3200FA374D /* LaunchScreen.storyboard */; };
+		9AFF878D24EF04210080F776 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF878B24EF04210080F776 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9AC9F9BB24F40FF000303268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFD284C24E6FD3100FA374D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFD285324E6FD3100FA374D;
+			remoteInfo = cloudly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A8014A124ED6A4900384DD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		123BA4418A178E14E8C0A4F6 /* Pods-cloudly-cloudlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudly-cloudlyTests.release.xcconfig"; path = "Target Support Files/Pods-cloudly-cloudlyTests/Pods-cloudly-cloudlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		1603000DFB8024C2BFFC1BBC /* Pods_cloudly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cloudly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E2E16C09921AAC88AF7A64 /* Pods-cloudly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudly.debug.xcconfig"; path = "Target Support Files/Pods-cloudly/Pods-cloudly.debug.xcconfig"; sourceTree = "<group>"; };
+		9A23008824E704CC0039AC3D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9A388C6324EF2C2B00D580D4 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		9A73ADDF2507E2B800690265 /* CreateItem copy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "CreateItem copy.storyboard"; sourceTree = "<group>"; };
+		9A73ADE12507E34E00690265 /* UpdateItem.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UpdateItem.storyboard; sourceTree = "<group>"; };
+		9A73ADE32507E39900690265 /* Create.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
+		9A73ADE52507E3E200690265 /* ItemsMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ItemsMain.storyboard; sourceTree = "<group>"; };
+		9A73ADE72507E43800690265 /* CreateAccount.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
+		9A73ADE92507E4B200690265 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		9A73ADEB2507E59E00690265 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = cloudly/Controller/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		9A73ADED2507F3FF00690265 /* ProfilePicturePersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicturePersistence.swift; sourceTree = "<group>"; };
+		9A87227E250942AC006093C4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		9A872283250953AB006093C4 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
+		9A8FD89624F0336500443D95 /* UpdateItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateItemViewController.swift; sourceTree = "<group>"; };
+		9AABEA6124F702C700A59E68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AABEA6324F705CA00A59E68 /* cloudly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cloudly.entitlements; sourceTree = "<group>"; };
+		9AB0C5E924F5756D008B04FB /* Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
+		9AB0C5EB24F577FF008B04FB /* GenericAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAlert.swift; sourceTree = "<group>"; };
+		9AB0C5ED24F57C7A008B04FB /* CreateAccountRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRequirements.swift; sourceTree = "<group>"; };
+		9AB0C5EF24F57C9F008B04FB /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		9AB0C60224F5E2B9008B04FB /* ToDoListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
+		9ABDBF4F24EC91970078B93B /* ToDoHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoHomeScreenViewController.swift; sourceTree = "<group>"; };
+		9AC569C824F8BC1F00E711FF /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = CloudlyApp/amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		9AC569C924F8BC1F00E711FF /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = CloudlyApp/awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		9AC9F9B624F40FF000303268 /* cloudlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC9F9B824F40FF000303268 /* cloudlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudlyTests.swift; sourceTree = "<group>"; };
+		9AC9F9BA24F40FF000303268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AFD285424E6FD3100FA374D /* cloudly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFD285724E6FD3100FA374D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AFD285924E6FD3100FA374D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9AFD285B24E6FD3100FA374D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AFD285B24E6FD3100FA374D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9AFD285E24E6FD3100FA374D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AFD286024E6FD3200FA374D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AFD286324E6FD3200FA374D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AFD286524E6FD3200FA374D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFF878B24EF04210080F776 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		B37D91253B0F65D1769FCC85 /* Pods-cloudly-cloudlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudly-cloudlyTests.debug.xcconfig"; path = "Target Support Files/Pods-cloudly-cloudlyTests/Pods-cloudly-cloudlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B38BC88889FE4969A6B53F81 /* Pods-cloudly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudly.release.xcconfig"; path = "Target Support Files/Pods-cloudly/Pods-cloudly.release.xcconfig"; sourceTree = "<group>"; };
+		D4048AB3F6CA58C7524BECAB /* Pods_cloudly_cloudlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cloudly_cloudlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9AC9F9B324F40FEF00303268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D85056CF7409F2313E92B3F /* Pods_cloudly_cloudlyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AFD285124E6FD3100FA374D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BB7A601475CA217A07F748 /* Pods_cloudly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E9330DE4AD412FE1AB9DFB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1603000DFB8024C2BFFC1BBC /* Pods_cloudly.framework */,
+				D4048AB3F6CA58C7524BECAB /* Pods_cloudly_cloudlyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9421459F53FB920ECEAD1B62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72E2E16C09921AAC88AF7A64 /* Pods-cloudly.debug.xcconfig */,
+				B38BC88889FE4969A6B53F81 /* Pods-cloudly.release.xcconfig */,
+				B37D91253B0F65D1769FCC85 /* Pods-cloudly-cloudlyTests.debug.xcconfig */,
+				123BA4418A178E14E8C0A4F6 /* Pods-cloudly-cloudlyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A872280250942D8006093C4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD286024E6FD3200FA374D /* Assets.xcassets */,
+				9A87227E250942AC006093C4 /* Colors.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9A87228125094315006093C4 /* Amplify */ = {
+			isa = PBXGroup;
+			children = (
+				9AC569C824F8BC1F00E711FF /* amplifyconfiguration.json */,
+				9AC569C924F8BC1F00E711FF /* awsconfiguration.json */,
+			);
+			path = Amplify;
+			sourceTree = "<group>";
+		};
+		9A87228225094355006093C4 /* Entitys */ = {
+			isa = PBXGroup;
+			children = (
+				9A73ADED2507F3FF00690265 /* ProfilePicturePersistence.swift */,
+				9AB0C5EB24F577FF008B04FB /* GenericAlert.swift */,
+				9AB0C5E924F5756D008B04FB /* Unwrap.swift */,
+				9A872283250953AB006093C4 /* EmptyState.xib */,
+			);
+			path = Entitys;
+			sourceTree = "<group>";
+		};
+		9AC9F9B724F40FF000303268 /* cloudlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9F9B824F40FF000303268 /* cloudlyTests.swift */,
+				9AC9F9BA24F40FF000303268 /* Info.plist */,
+			);
+			path = cloudlyTests;
+			sourceTree = "<group>";
+		};
+		9AFAB3A224ED7862001A1CF1 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				9A87228225094355006093C4 /* Entitys */,
+				9A87228125094315006093C4 /* Amplify */,
+				9A872280250942D8006093C4 /* Assets */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		9AFAB3A324ED7874001A1CF1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A388C6324EF2C2B00D580D4 /* CreateViewController.swift */,
+				9A73ADEB2507E59E00690265 /* ProfileViewController.swift */,
+				9A23008824E704CC0039AC3D /* RegisterViewController.swift */,
+				9AFD285B24E6FD3100FA374D /* SignInViewController.swift */,
+				9ABDBF4F24EC91970078B93B /* ToDoHomeScreenViewController.swift */,
+				9AFF878B24EF04210080F776 /* MyTableViewCell.swift */,
+				9A8FD89624F0336500443D95 /* UpdateItemViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9AFAB3A424ED7882001A1CF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A73ADE72507E43800690265 /* CreateAccount.storyboard */,
+				9A73ADE52507E3E200690265 /* ItemsMain.storyboard */,
+				9A73ADE92507E4B200690265 /* Profile.storyboard */,
+				9A73ADE32507E39900690265 /* Create.storyboard */,
+				9A73ADE12507E34E00690265 /* UpdateItem.storyboard */,
+				9A73ADDF2507E2B800690265 /* CreateItem copy.storyboard */,
+				9AFD285D24E6FD3100FA374D /* Main.storyboard */,
+				9AFD286224E6FD3200FA374D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AFAB3A524ED7896001A1CF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0C60224F5E2B9008B04FB /* ToDoListItem.swift */,
+				9AB0C5EF24F57C9F008B04FB /* LoginCredentials.swift */,
+				9AB0C5ED24F57C7A008B04FB /* CreateAccountRequirements.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9AFD284B24E6FD3100FA374D = {
 			isa = PBXGroup;
 			children = (
 				9AFD285624E6FD3100FA374D /* cloudly */,
+				9AC9F9B724F40FF000303268 /* cloudlyTests */,
 				9AFD285524E6FD3100FA374D /* Products */,
+				9421459F53FB920ECEAD1B62 /* Pods */,
+				7E9330DE4AD412FE1AB9DFB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				9AFD285424E6FD3100FA374D /* cloudly.app */,
+				9AC9F9B624F40FF000303268 /* cloudlyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +257,14 @@
 		9AFD285624E6FD3100FA374D /* cloudly */ = {
 			isa = PBXGroup;
 			children = (
+				9AABEA6324F705CA00A59E68 /* cloudly.entitlements */,
+				9AFAB3A524ED7896001A1CF1 /* Model */,
+				9AFAB3A424ED7882001A1CF1 /* View */,
+				9AFAB3A324ED7874001A1CF1 /* Controller */,
+				9AFAB3A224ED7862001A1CF1 /* Items */,
 				9AFD285724E6FD3100FA374D /* AppDelegate.swift */,
 				9AFD285924E6FD3100FA374D /* SceneDelegate.swift */,
-				9AFD285B24E6FD3100FA374D /* ViewController.swift */,
-				9AFD285D24E6FD3100FA374D /* Main.storyboard */,
-				9AFD286024E6FD3200FA374D /* Assets.xcassets */,
-				9AFD286224E6FD3200FA374D /* LaunchScreen.storyboard */,
+				9AABEA6124F702C700A59E68 /* GoogleService-Info.plist */,
 				9AFD286524E6FD3200FA374D /* Info.plist */,
 			);
 			path = cloudly;
@@ -70,13 +273,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9AC9F9B524F40FEF00303268 /* cloudlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC9F9BF24F40FF000303268 /* Build configuration list for PBXNativeTarget "cloudlyTests" */;
+			buildPhases = (
+				954D89327D4BC76014BE6E35 /* [CP] Check Pods Manifest.lock */,
+				9AC9F9B224F40FEF00303268 /* Sources */,
+				9AC9F9B324F40FEF00303268 /* Frameworks */,
+				9AC9F9B424F40FEF00303268 /* Resources */,
+				ABA73C78931E9FC283BDD6C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC9F9BC24F40FF000303268 /* PBXTargetDependency */,
+			);
+			name = cloudlyTests;
+			productName = cloudlyTests;
+			productReference = 9AC9F9B624F40FF000303268 /* cloudlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9AFD285324E6FD3100FA374D /* cloudly */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AFD286824E6FD3200FA374D /* Build configuration list for PBXNativeTarget "cloudly" */;
 			buildPhases = (
+				32257DFAC94469DA25D0463A /* [CP] Check Pods Manifest.lock */,
 				9AFD285024E6FD3100FA374D /* Sources */,
 				9AFD285124E6FD3100FA374D /* Frameworks */,
 				9AFD285224E6FD3100FA374D /* Resources */,
+				9A8014A124ED6A4900384DD8 /* CopyFiles */,
+				6EE9D310C789AE34E9149193 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,6 +323,10 @@
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Camilo Jiménez";
 				TargetAttributes = {
+					9AC9F9B524F40FEF00303268 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9AFD285324E6FD3100FA374D;
+					};
 					9AFD285324E6FD3100FA374D = {
 						CreatedOnToolsVersion = 11.6;
 					};
@@ -116,35 +346,163 @@
 			projectRoot = "";
 			targets = (
 				9AFD285324E6FD3100FA374D /* cloudly */,
+				9AC9F9B524F40FEF00303268 /* cloudlyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9AC9F9B424F40FEF00303268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AFD285224E6FD3100FA374D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC569CB24F8BC1F00E711FF /* awsconfiguration.json in Resources */,
+				9A73ADE42507E39900690265 /* Create.storyboard in Resources */,
+				9A87227F250942AC006093C4 /* Colors.xcassets in Resources */,
 				9AFD286424E6FD3200FA374D /* LaunchScreen.storyboard in Resources */,
+				9AC569CA24F8BC1F00E711FF /* amplifyconfiguration.json in Resources */,
 				9AFD286124E6FD3200FA374D /* Assets.xcassets in Resources */,
 				9AFD285F24E6FD3100FA374D /* Main.storyboard in Resources */,
+				9A73ADEA2507E4B200690265 /* Profile.storyboard in Resources */,
+				9A73ADE82507E43800690265 /* CreateAccount.storyboard in Resources */,
+				9A73ADE62507E3E200690265 /* ItemsMain.storyboard in Resources */,
+				9A73ADE02507E2B800690265 /* CreateItem copy.storyboard in Resources */,
+				9A872284250953AB006093C4 /* EmptyState.xib in Resources */,
+				9A73ADE22507E34E00690265 /* UpdateItem.storyboard in Resources */,
+				9AABEA6224F702C700A59E68 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32257DFAC94469DA25D0463A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cloudly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE9D310C789AE34E9149193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cloudly/Pods-cloudly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cloudly/Pods-cloudly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cloudly/Pods-cloudly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		954D89327D4BC76014BE6E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cloudly-cloudlyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA73C78931E9FC283BDD6C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cloudly-cloudlyTests/Pods-cloudly-cloudlyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cloudly-cloudlyTests/Pods-cloudly-cloudlyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cloudly-cloudlyTests/Pods-cloudly-cloudlyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		9AC9F9B224F40FEF00303268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC9F9B924F40FF000303268 /* cloudlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AFD285024E6FD3100FA374D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFD285C24E6FD3100FA374D /* ViewController.swift in Sources */,
+				9AB0C5F024F57C9F008B04FB /* LoginCredentials.swift in Sources */,
+				9AB0C5EC24F577FF008B04FB /* GenericAlert.swift in Sources */,
+				9AB0C5EA24F5756D008B04FB /* Unwrap.swift in Sources */,
+				9A388C6424EF2C2B00D580D4 /* CreateViewController.swift in Sources */,
+				9A73ADEC2507E59E00690265 /* ProfileViewController.swift in Sources */,
+				9AFD285C24E6FD3100FA374D /* SignInViewController.swift in Sources */,
+				9A8FD89724F0336500443D95 /* UpdateItemViewController.swift in Sources */,
+				9AFF878D24EF04210080F776 /* MyTableViewCell.swift in Sources */,
+				9ABDBF5024EC91970078B93B /* ToDoHomeScreenViewController.swift in Sources */,
 				9AFD285824E6FD3100FA374D /* AppDelegate.swift in Sources */,
+				9A23008924E704CC0039AC3D /* RegisterViewController.swift in Sources */,
+				9AB0C5EE24F57C7A008B04FB /* CreateAccountRequirements.swift in Sources */,
+				9A73ADEE2507F3FF00690265 /* ProfilePicturePersistence.swift in Sources */,
+				9AB0C60324F5E2B9008B04FB /* ToDoListItem.swift in Sources */,
 				9AFD285A24E6FD3100FA374D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AC9F9BC24F40FF000303268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFD285324E6FD3100FA374D /* cloudly */;
+			targetProxy = 9AC9F9BB24F40FF000303268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9AFD285D24E6FD3100FA374D /* Main.storyboard */ = {
@@ -166,6 +524,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9AC9F9BD24F40FF000303268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37D91253B0F65D1769FCC85 /* Pods-cloudly-cloudlyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CCBV67PDZ;
+				INFOPLIST_FILE = cloudlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.co.cloudlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloudly.app/cloudly";
+			};
+			name = Debug;
+		};
+		9AC9F9BE24F40FF000303268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 123BA4418A178E14E8C0A4F6 /* Pods-cloudly-cloudlyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CCBV67PDZ;
+				INFOPLIST_FILE = cloudlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.co.cloudlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloudly.app/cloudly";
+			};
+			name = Release;
+		};
 		9AFD286624E6FD3200FA374D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,16 +682,18 @@
 		};
 		9AFD286924E6FD3200FA374D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E2E16C09921AAC88AF7A64 /* Pods-cloudly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = cloudly/cloudly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CCBV67PDZ;
+				DEVELOPMENT_TEAM = PDKUC8934Y;
 				INFOPLIST_FILE = cloudly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.co.cloudly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.co.cloudlyReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,16 +702,18 @@
 		};
 		9AFD286A24E6FD3200FA374D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38BC88889FE4969A6B53F81 /* Pods-cloudly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = cloudly/cloudly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CCBV67PDZ;
+				DEVELOPMENT_TEAM = PDKUC8934Y;
 				INFOPLIST_FILE = cloudly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.co.cloudly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.co.cloudlyReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,6 +723,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9AC9F9BF24F40FF000303268 /* Build configuration list for PBXNativeTarget "cloudlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9F9BD24F40FF000303268 /* Debug */,
+				9AC9F9BE24F40FF000303268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9AFD284F24E6FD3100FA374D /* Build configuration list for PBXProject "cloudly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
