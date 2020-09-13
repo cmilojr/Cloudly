@@ -9,6 +9,7 @@
 import UIKit
 import Amplify
 import AmplifyPlugins
+import NotificationBanner
 
 class SignInViewController: UIViewController {
     @IBOutlet private weak var emailTextField: UITextField!
@@ -45,9 +46,7 @@ class SignInViewController: UIViewController {
                 }
             case .failure(let error):
                 DispatchQueue.main.async {
-                    GenericAlert.alert(self!,
-                                       title: "Wrong credentials",
-                                       message: "Please check email or password")
+                    NotificationBanner(title: "Error", subtitle: "Wrong credentials", style: .danger).show()
                 }
 
                 print("Sign in failed \(error)")
@@ -83,23 +82,17 @@ class SignInViewController: UIViewController {
                 switch resetResult.nextStep {
                 case .confirmResetPasswordWithCode(let deliveryDetails, let info):
                     DispatchQueue.main.async {
-                        self?.dismiss(animated: true) {
                         self?.confirmationCodeAlert()
-                        }
                     }
                     print("Confirm reset password with code send to - \(deliveryDetails) \(String(describing: info))")
                 case .done:
                     DispatchQueue.main.async {
-                        GenericAlert.alert(self!,
-                                           title: "Reset completed!",
-                                           message: "Please, Sign In")
+                        NotificationBanner(title: "Reset completed!", subtitle: "Please, Sign In", style: .success).show()
                     }
                 }
             } catch {
                 DispatchQueue.main.async {
-                    GenericAlert.alert(self!,
-                                        title: "Error",
-                                        message: error.localizedDescription)
+                    NotificationBanner(title: "Error", subtitle: error.localizedDescription, style: .danger).show()
                 }
             }
         }
@@ -157,6 +150,9 @@ class SignInViewController: UIViewController {
             case .success:
                 print("Password reset confirmed")
             case .failure(let error):
+                DispatchQueue.main.async {
+                    NotificationBanner(title: "Error", subtitle: error.errorDescription, style: .danger).show()
+                }
                 print("Reset password failed with error \(error)")
             }
         }

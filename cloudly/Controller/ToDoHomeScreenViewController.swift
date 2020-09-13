@@ -76,6 +76,20 @@ class ToDoHomeScreenViewController: UIViewController {
 }
 
 extension ToDoHomeScreenViewController: UITableViewDataSource, UITableViewDelegate {
+    
+    //Eliminar swipe hacia la derecha
+//    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+//        let deleteRow = UIContextualAction(style: .destructive, title: "Delete") { (contextAction, view, boolValue) in
+//
+//        }
+//        let actions = UISwipeActionsConfiguration(actions: [deleteRow])
+//        return actions
+//    }
+//
+//    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+//        return true
+//    }
+//
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if todoList.count == 0 {
             tableView.backgroundView = emptyStateView

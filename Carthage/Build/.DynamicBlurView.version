@@ -1,0 +1,11 @@
+{
+  "commitish" : "3.0.1",
+  "iOS" : [
+    {
+      "hash" : "b676c740693d040eaacbc46a2743301979922b1bf845c6da11fd44f06c8ce761",
+      "name" : "DynamicBlurView",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

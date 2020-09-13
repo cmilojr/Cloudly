@@ -1,0 +1,11 @@
+{
+  "commitish" : "4.0.2",
+  "iOS" : [
+    {
+      "hash" : "7b6129f7611040a539fb2fb8d9deff9c52ce7ab034c66c803bcd11d19864b296",
+      "name" : "MarqueeLabel",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

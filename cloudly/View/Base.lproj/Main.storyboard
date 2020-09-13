@@ -174,6 +174,7 @@
         <!--Start Navigation View Controller-->
         <scene sceneID="ZOg-sC-eG0">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FA8-nR-gxt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="start" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="R84-KS-Erd" customClass="StartNavigationViewController" customModule="cloudly" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="kfF-Ca-qiO"/>
@@ -188,7 +189,6 @@
                         <segue destination="XCn-t3-EfZ" kind="relationship" relationship="rootViewController" id="JIV-y1-K0e"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FA8-nR-gxt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1561" y="421"/>
         </scene>

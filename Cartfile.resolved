@@ -1,0 +1,5 @@
+github "Daltron/NotificationBanner" "7ccd53e0327a192bb7ab8950b60179831429dceb"
+github "KyoheiG3/DynamicBlurView" "3.0.1"
+github "Orderella/PopupDialog" "1.1.1"
+github "SnapKit/SnapKit" "5.0.1"
+github "cbpowell/MarqueeLabel" "4.0.2"

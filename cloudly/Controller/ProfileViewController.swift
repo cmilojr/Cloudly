@@ -13,6 +13,9 @@ import Firebase
 import FirebaseUI
 import FirebaseStorage
 import FirebaseDatabase
+import CoreFoundation
+import AVFoundation
+import AVKit
 
 class ProfileViewController: UIViewController {
     @IBOutlet var profilePhoto: UIImageView!
