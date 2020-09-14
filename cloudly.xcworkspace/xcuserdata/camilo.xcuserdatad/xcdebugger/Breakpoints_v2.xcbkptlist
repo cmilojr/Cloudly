@@ -46,8 +46,8 @@
             filePath = "cloudly/Controller/SignInViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "singInAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "cloudly/Controller/SignInViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "signIn(_:)"
             landmarkType = "7">
             <Locations>
@@ -190,8 +190,8 @@
             filePath = "cloudly/Controller/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "registerNewUserAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -222,8 +222,8 @@
             filePath = "cloudly/Controller/ProfileViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "takePhotoAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -242,6 +242,226 @@
             endingLineNumber = "24"
             landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11C82444-3458-4056-A7FF-BBC07CA48295"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Controller/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "resetPasswordAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E242A1A1-85BB-42D6-9ABC-0111FF50A29A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Controller/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "restoreAccountAlert()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BD68859-7AF8-47BE-964B-9A55F094C842"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Controller/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "resetPassword(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B331724-6769-4024-9AF7-29EEA922F463"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Controller/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "resetPassword(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "030EF42A-E416-431E-9DC3-AA1990B3E46E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Controller/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "resetPassword(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "030EF42A-E416-431E-9DC3-AA1990B3E46E - 9cd6bf73c7f7a6e3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cloudly.SignInViewController.(resetPassword in _2FE37E2E2EA0215665CF85D49092CD36)(for: Swift.String) -&gt; ()"
+                  moduleName = "cloudly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilo/Files/Cloudly/cloudly/Controller/SignInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "030EF42A-E416-431E-9DC3-AA1990B3E46E - c0a026062771e5be"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthResetPasswordResult, Amplify.AuthError&gt;) -&gt; () in cloudly.SignInViewController.(resetPassword in _2FE37E2E2EA0215665CF85D49092CD36)(for: Swift.String) -&gt; ()"
+                  moduleName = "cloudly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilo/Files/Cloudly/cloudly/Controller/SignInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A4F6A26-E39B-484F-8AB2-E9263D1C886D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Controller/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "resetPassword(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A4F6A26-E39B-484F-8AB2-E9263D1C886D - c0a026062771e5be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Amplify.AuthResetPasswordResult, Amplify.AuthError&gt;) -&gt; () in cloudly.SignInViewController.(resetPassword in _2FE37E2E2EA0215665CF85D49092CD36)(for: Swift.String) -&gt; ()"
+                  moduleName = "cloudly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilo/Files/Cloudly/cloudly/Controller/SignInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "826">
+               </Location>
+               <Location
+                  uuid = "5A4F6A26-E39B-484F-8AB2-E9263D1C886D - 82a05f9e821736a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Amplify.AuthResetPasswordResult, Amplify.AuthError&gt;) -&gt; () in cloudly.SignInViewController.(resetPassword in _2FE37E2E2EA0215665CF85D49092CD36)(for: Swift.String) -&gt; ()"
+                  moduleName = "cloudly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilo/Files/Cloudly/cloudly/Controller/SignInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9F291DA-B85B-452F-994A-56B4180FFB50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Items/Entitys/ProfilePicturePersistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69">
+            <Locations>
+               <Location
+                  uuid = "D9F291DA-B85B-452F-994A-56B4180FFB50 - 8370a8d8edd7e123"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in cloudly.ProfilePicturePersistence.(uploadImage in _040C79BFFC44AF1CE7CF45599A0A1B7E)(image: __C.UIImage) -&gt; ()"
+                  moduleName = "cloudly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilo/Files/Cloudly/cloudly/Items/Entitys/ProfilePicturePersistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "D9F291DA-B85B-452F-994A-56B4180FFB50 - a873b3d0ddeedd4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in cloudly.ProfilePicturePersistence.(uploadImage in _040C79BFFC44AF1CE7CF45599A0A1B7E)(image: __C.UIImage) -&gt; ()"
+                  moduleName = "cloudly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilo/Files/Cloudly/cloudly/Items/Entitys/ProfilePicturePersistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42CAFAFF-1D75-4702-AA11-252E7B131B83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Items/Entitys/ProfilePicturePersistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
