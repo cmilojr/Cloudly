@@ -232,6 +232,7 @@
 				9AFD285924E6FD3100FA374D /* SceneDelegate.swift */,
 				9AABEA6124F702C700A59E68 /* GoogleService-Info.plist */,
 				9AFD286524E6FD3200FA374D /* Info.plist */,
+				9AABEA6324F705CA00A59E68 /* cloudly.entitlements */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -309,7 +310,6 @@
 			isa = PBXGroup;
 			children = (
 				9AF202F7250DC67C00DAE45A /* Commons */,
-				9AABEA6324F705CA00A59E68 /* cloudly.entitlements */,
 				9AFAB3A524ED7896001A1CF1 /* Model */,
 				9AFAB3A424ED7882001A1CF1 /* View */,
 				9AFAB3A324ED7874001A1CF1 /* Controller */,
@@ -758,7 +758,7 @@
 			baseConfigurationReference = 1785EFE9D3C8C77F76E692DF /* Pods-cloudly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = cloudly/cloudly.entitlements;
+				CODE_SIGN_ENTITLEMENTS = cloudly/Commons/cloudly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDKUC8934Y;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -782,7 +782,7 @@
 			baseConfigurationReference = D544C582F3163A23FE91C246 /* Pods-cloudly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = cloudly/cloudly.entitlements;
+				CODE_SIGN_ENTITLEMENTS = cloudly/Commons/cloudly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDKUC8934Y;
 				FRAMEWORK_SEARCH_PATHS = (

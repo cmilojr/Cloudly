@@ -13,3 +13,14 @@ struct ToDoListItem {
     var key: String = ""
 }
  
+struct PostRequest: Codable {
+    let text: String
+    let imageUrl: String?
+    let videoUrl: String?
+    let location: PostRequestLocation?
+}
+
+struct PostRequestLocation: Codable {
+    let latitude: Double
+    let longitude: Double
+}

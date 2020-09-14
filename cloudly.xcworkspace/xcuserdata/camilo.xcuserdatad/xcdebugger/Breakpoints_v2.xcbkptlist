@@ -222,8 +222,8 @@
             filePath = "cloudly/Controller/ProfileViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "takePhotoAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -402,6 +402,70 @@
                   offsetFromSymbolStart = "45">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9F291DA-B85B-452F-994A-56B4180FFB50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Items/Entitys/ProfilePicturePersistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "uploadImage(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9F291DA-B85B-452F-994A-56B4180FFB50 - 8370a8d8edd7e123"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in cloudly.ProfilePicturePersistence.(uploadImage in _040C79BFFC44AF1CE7CF45599A0A1B7E)(image: __C.UIImage) -&gt; ()"
+                  moduleName = "cloudly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilo/Files/Cloudly/cloudly/Items/Entitys/ProfilePicturePersistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "D9F291DA-B85B-452F-994A-56B4180FFB50 - a873b3d0ddeedd4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in cloudly.ProfilePicturePersistence.(uploadImage in _040C79BFFC44AF1CE7CF45599A0A1B7E)(image: __C.UIImage) -&gt; ()"
+                  moduleName = "cloudly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilo/Files/Cloudly/cloudly/Items/Entitys/ProfilePicturePersistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42CAFAFF-1D75-4702-AA11-252E7B131B83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cloudly/Items/Entitys/ProfilePicturePersistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "uploadImage(image:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

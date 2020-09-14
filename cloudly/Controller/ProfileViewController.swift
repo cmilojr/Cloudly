@@ -25,7 +25,6 @@ class ProfileViewController: UIViewController {
     
     private let profilePictureDB = ProfilePicturePersistence.save
     private let storage = Database.database().reference()
-    private let registerVC = RegisterViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
