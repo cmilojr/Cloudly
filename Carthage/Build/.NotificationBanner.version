@@ -1,0 +1,11 @@
+{
+  "commitish" : "7ccd53e0327a192bb7ab8950b60179831429dceb",
+  "iOS" : [
+    {
+      "hash" : "1ff3490337bafe41117c28d6ab06e253b3141f73d4c13e12494ab633313a7e85",
+      "name" : "NotificationBanner",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

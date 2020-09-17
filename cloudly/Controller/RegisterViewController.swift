@@ -10,6 +10,7 @@ import UIKit
 import Amplify
 import Firebase
 import FirebaseDatabase
+import NotificationBanner
 
 class RegisterViewController: UIViewController {
     @IBOutlet private weak var fullNameField: UITextField!
@@ -25,6 +26,7 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func registerNewUserAction(_ sender: UIButton) {
+        view.endEditing(true)
         do {
             let credentials = try Unwrap.createAccountRequirements(
                              username: fullNameField.text,
@@ -32,9 +34,7 @@ class RegisterViewController: UIViewController {
                              email: emailField.text)
             signUp(credentials)
         } catch {
-            GenericAlert.alert(self,
-                               title: "Please fill the empty fields",
-                               message: "")
+            NotificationBanner(title: "Error", subtitle: "Please fill the empty fields", style: .warning).show()
         }
     }
     
@@ -56,9 +56,7 @@ class RegisterViewController: UIViewController {
                 }
             case .failure(let error):
                 DispatchQueue.main.async {
-                    GenericAlert.alert(self!,
-                                       title: "Please check E-mail and Password",
-                                       message: "")
+                    NotificationBanner(title: "Error", subtitle: error.errorDescription, style: .warning).show()
                 }
                 print("An error occurred while registering a user \(error)")
             }
@@ -71,18 +69,37 @@ class RegisterViewController: UIViewController {
             switch result {
             case .success(_):
                 DispatchQueue.main.async {
-                    self?.performSegue(withIdentifier: "signupSegue", sender: self)
+                    let credentials = LoginCredentials(email: self!.emailField.text!,
+                                                       password: self!.passwordField.text!)
+                    self?.signIn(credentials)
                 }
-                
             case .failure(_):
                 DispatchQueue.main.async {
-                    GenericAlert.alert(self!,
-                                       title: "The code is no valid",
-                                       message: "")
+                    NotificationBanner(title: "The code is wrong", subtitle: "Please check againt your email" , style: .danger).show()
+                    self?.confirmationCodeAlert()
                 }
             }
         }
     }
+    
+    private func signIn(_ loginUser: LoginCredentials) {
+        _ = Amplify.Auth.signIn(username: loginUser.email,
+                                password: loginUser.password) { [weak self] result in
+            switch result {
+            case .success(_):
+                DispatchQueue.main.async {
+                    self?.performSegue(withIdentifier: "signupSegue", sender: self)
+                }
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    NotificationBanner(title: "Error", subtitle: "Wrong credentials", style: .danger).show()
+                }
+
+                print("Sign in failed \(error)")
+            }
+        }
+    }
+    
     
     private func confirmationCodeAlert() {
         let alert = UIAlertController(title: "Validate Account",
@@ -92,11 +109,7 @@ class RegisterViewController: UIViewController {
             textField.placeholder = "Confirmation code"
         }
         
-        alert.addAction(UIAlertAction(title: "exit", style: .default, handler: { [weak self] (_) in
-            self?.dismiss(animated: true, completion: nil)
-        }))
-        
-        alert.addAction(UIAlertAction(title: "ok", style: .default, handler: { [weak alert] (_) in
+        alert.addAction(UIAlertAction(title: "Continue", style: .default, handler: { [weak alert] (_) in
             let email = self.emailField.text
             let code = alert?.textFields![0].text
             self.confirmSignUp(for: email!, with: code!)

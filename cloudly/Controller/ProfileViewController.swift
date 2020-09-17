@@ -13,6 +13,9 @@ import Firebase
 import FirebaseUI
 import FirebaseStorage
 import FirebaseDatabase
+import CoreFoundation
+import AVFoundation
+import AVKit
 
 class ProfileViewController: UIViewController {
     @IBOutlet var profilePhoto: UIImageView!
@@ -22,7 +25,6 @@ class ProfileViewController: UIViewController {
     
     private let profilePictureDB = ProfilePicturePersistence.save
     private let storage = Database.database().reference()
-    private let registerVC = RegisterViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
